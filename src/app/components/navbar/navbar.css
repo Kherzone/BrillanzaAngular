@@ -1,0 +1,19 @@
+/* ... (código del .navbar) ... */
+
+.navbar-logo {
+  font-weight: 600; /* Le damos algo más de peso */
+  
+  /* --- EFECTO NEÓN AÑADIDO --- */
+  /* Esto aplica múltiples sombras de texto,
+    cada vez más desenfocadas, para crear un "glow"
+  */
+  text-shadow: 0 0 5px rgba(56, 189, 248, 0.7),
+               0 0 10px rgba(56, 189, 248, 0.5),
+               0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.navbar-logo span {
+  color: #38bdf8;
+}
+
+/* ... (el resto del archivo sigue igual) ... */
